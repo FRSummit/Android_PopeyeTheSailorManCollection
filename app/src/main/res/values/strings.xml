@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PopeyeTheSailorManCollection</string>
+    <string name="menu_logo_text">Popeye The Sailor Man Collection</string>
+    <string name="about_text">Popeye, a contentious, joking animation mariner who has superhuman quality subsequent to ingesting a consistently helpful container of spinach. Popeye was made by Elzie Crisler Segar, who in 1929 brought the character into his current paper animation strip, Thimble Theater.</string>
+    <!--Ads-->
+    <string name="BANNER_320x50">BANNER</string>
+    <string name="LARGE_BANNER_320x100">LARGE_BANNER</string>
+    <string name="MEDIUM_RECTANGLE_300x250">MEDIUM_RECTANGLE</string>
+    <string name="FULL_BANNER_468x60">FULL_BANNER</string>
+    <string name="LEADERBOARD_728x90">LEADERBOARD</string>
+    <string name="my_bazar_list_app_id">ca-app-pub-4861848901455235~3111229015</string>
+
+    <string name="AD_APP_ID">ca-app-pub-4861848901455235~1543221812</string>
+
+    <string name="BANNER_TEST_UNIT_ID">ca-app-pub-3940256099942544/6300978111</string>
+
+    <string name="AD_ACTIVITY_MENU">ca-app-pub-4861848901455235/6412405111</string>
+    <string name="AD_ACTIVITY_ABOUT">ca-app-pub-4861848901455235/9115941141</string>
+    <string name="AD_ACTIVITY"></string>
+</resources>

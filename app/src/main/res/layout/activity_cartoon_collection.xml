@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="4dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="4dp"
+    android:background="@drawable/background_1"
+    tools:context=".CartoonCollection">
+
+    <RelativeLayout
+        android:id="@+id/watch_activity_logo_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/watch_logo_img"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_1"/>
+
+        <TextView
+            android:id="@+id/watch_activity_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_logo_text"
+            android:textSize="22dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/watch_logo_img"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/watch_activity_logo_section">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/watch_activity_desc_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:gravity="center">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:layout_below="@+id/about_activity_desc">
+                </androidx.recyclerview.widget.RecyclerView>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/watch_activity_desc_section"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="60dp"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/watch_activity_back_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="@drawable/ripple_background"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="Back To Home"
+                    android:textStyle="normal"
+                    android:textColor="@color/menu_btn"
+                    android:textSize="14dp"
+                    android:textAllCaps="false"
+                    android:onClick="goToHomeBtnClick"
+                    android:layout_alignParentStart="true" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/watch_cartoon_activity_ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="@string/BANNER_320x50"
+        ads:adUnitId="@string/AD_ACTIVITY_ABOUT">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
