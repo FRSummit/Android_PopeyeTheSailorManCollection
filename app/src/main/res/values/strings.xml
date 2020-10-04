@@ -15,6 +15,8 @@
     <string name="BANNER_TEST_UNIT_ID">ca-app-pub-3940256099942544/6300978111</string>
 
     <string name="AD_ACTIVITY_MENU">ca-app-pub-4861848901455235/6412405111</string>
-    <string name="AD_ACTIVITY_ABOUT">ca-app-pub-4861848901455235/9115941141</string>
-    <string name="AD_ACTIVITY"></string>
+    <string name="AD_ACTIVITY_ABOUT_BANNER">ca-app-pub-4861848901455235/9115941141</string>
+    <string name="AD_ACTIVITY_ABOUT_INTERSTITIAL">ca-app-pub-4861848901455235/9115941141</string>
+    <string name="AD_ACTIVITY_WATCH_BANNER"></string>
+    <string name="AD_ACTIVITY_WATCH_INTERSTITIAL"></string>
 </resources>

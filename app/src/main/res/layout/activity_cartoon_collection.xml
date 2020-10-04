@@ -96,7 +96,7 @@
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
         ads:adSize="@string/BANNER_320x50"
-        ads:adUnitId="@string/AD_ACTIVITY_ABOUT">
+        ads:adUnitId="@string/AD_ACTIVITY_WATCH_BANNER">
     </com.google.android.gms.ads.AdView>
 
 </RelativeLayout>
