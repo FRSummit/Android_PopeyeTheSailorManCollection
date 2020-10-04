@@ -16,7 +16,7 @@
 
     <string name="AD_ACTIVITY_MENU">ca-app-pub-4861848901455235/6412405111</string>
     <string name="AD_ACTIVITY_ABOUT_BANNER">ca-app-pub-4861848901455235/9115941141</string>
-    <string name="AD_ACTIVITY_ABOUT_INTERSTITIAL">ca-app-pub-4861848901455235/9115941141</string>
-    <string name="AD_ACTIVITY_WATCH_BANNER"></string>
-    <string name="AD_ACTIVITY_WATCH_INTERSTITIAL"></string>
+    <string name="AD_ACTIVITY_ABOUT_INTERSTITIAL">ca-app-pub-4861848901455235/6022534637</string>
+    <string name="AD_ACTIVITY_WATCH_BANNER">ca-app-pub-4861848901455235/4709452961</string>
+    <string name="AD_ACTIVITY_WATCH_INTERSTITIAL">ca-app-pub-4861848901455235/2083289625</string>
 </resources>

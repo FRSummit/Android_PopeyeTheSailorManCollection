@@ -26,7 +26,7 @@ public class AboutActivity extends Activity {
         setContentView(R.layout.activity_about);
 
         adView = findViewById(R.id.about_activity_ad);
-        MobileAds.initialize(this, this.getString(R.string.AD_APP_ID)); //App Id from string values
+        MobileAds.initialize(this, this.getString(R.string.AD_APP_ID));
         AdRequest adRequest = new AdRequest.Builder()
                 //.addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                 .build();
@@ -36,7 +36,7 @@ public class AboutActivity extends Activity {
 
 
         mInterstitialVideoAd = new InterstitialAd(this);
-        mInterstitialVideoAd.setAdUnitId("ca-app-pub-3940256099942544/8691691433"); // Interstitial Video
+        mInterstitialVideoAd.setAdUnitId(this.getString(R.string.AD_ACTIVITY_ABOUT_INTERSTITIAL));
         AdRequest request = new AdRequest.Builder()
                 .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
                 .build();
